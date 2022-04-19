@@ -1,0 +1,47 @@
+.postSection {
+    width: 400px;
+    height: auto;
+    background-color: rgb(253, 253, 253);
+    /* box-shadow: 0 0 12px rgba(0,0,0,0.3); */
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.postSection:hover {
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.postImageContainer {
+    width: 100%;
+    height: 300px;
+
+}
+
+.postImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.postTitle {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .5rem auto;
+    
+}
+
+.postDate {
+    color: lightgray;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.postDesc {
+    color: #444;
+    text-align: center;
+    padding-bottom: 1rem;
+}

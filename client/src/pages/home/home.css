@@ -1,0 +1,49 @@
+.homeSection {
+    width: 100vw;
+    height: auto;
+
+}
+
+.homeImageContainer {
+    width: 100%;
+    height: 250px;
+}
+
+.homeImage {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+
+}
+
+.homeWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeLeft {
+    flex: 9;
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    padding-top: 2rem;
+}
+
+.homeLeftWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 2rem;
+}
+
+.homeRight {
+    flex: 3;
+    margin-top: 0;
+}

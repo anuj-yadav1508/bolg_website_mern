@@ -1,0 +1,119 @@
+.editProfileSection {
+    width: 100%;
+    height: auto;
+}
+
+.editProfileWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.editProfileLeft {
+    flex: 9;
+}
+
+.editProfileLeftWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.editProfileHeading {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editProfileUpdateHeading {
+    color: red;
+    font-weight: 400;
+}
+
+.editProfileDelete {
+    color: red;
+    cursor: pointer;
+}
+
+.editProfileFormTop {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+}
+
+.editProfilePictureContainer {
+    width: 120px;
+    height: 120px;
+
+}
+
+.editProfilePicture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.updateIcon {
+    font-size: 2rem;
+    color: green;
+    cursor: pointer;
+    margin-left: 1.2rem;
+}
+
+.editProfileFormCenter {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.editProfileCenterLabel {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.editProfileCenterInput {
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    color: gray;
+    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.editProfileCenterInput:focus {
+    outline: none;
+}
+
+.editProfileBottom {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editProfileUpdateButton {
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.successUpdatePara {
+    font-size: 1rem;
+    color: green;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.editProfileRight {
+    flex: 3;
+}

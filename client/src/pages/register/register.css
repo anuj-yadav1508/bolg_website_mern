@@ -1,0 +1,69 @@
+.registerSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxibG9nbG9naW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.registerWrapper {
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.registerHeading {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    margin: 2rem 0;
+    letter-spacing: .08rem;
+}
+
+.registerInput {
+    width: 70%;
+    font-size: 1rem;
+    padding: 7px 10px;
+    color: gray;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerSubmit {
+    width: 60%;
+    color: white;
+    border: 2px solid green;
+    background-color: green;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 5px 15px;
+    letter-spacing: .09rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.registerPara {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.registerSpan a {
+    text-decoration: none;
+    margin-left: 1.3rem;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor:pointer;
+}
